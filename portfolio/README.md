@@ -210,7 +210,7 @@ By setting to `false` it will hide the GitHub stars/fork buttons
 
 ```javascript
 export const githubButtons = {
-  isEnabled: true, // true is the default value
+  isEnabled: false, // true is the default value
 };
 ```
 

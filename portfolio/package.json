@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "joseph-mcallister-portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A simple portfolio site deployed at joseph-mcallister.github.io",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
