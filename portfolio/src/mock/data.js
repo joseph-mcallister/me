@@ -22,37 +22,38 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'resume.pdf',
-  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'roo_handled.jpg',
+    title: 'Roo Storage',
+    info:
+      'Founded in 2018, Roo Storage connected people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as the founder and CTO and led the development of our platform.',
+    info2:
+      "After raising a seed round and receving an Arch Grant, Roo was acquired by Handled. Handled is a growth-stage home services concierge that uses Roo's backend technology to manage commercial warehouses across the country.",
+    url: 'https://roo.handled.com/',
+    cta1Text: 'Read more',
+    url2:
+      'https://medium.com/roo-engineering/payment-automation-for-the-sharing-economy-f354487da2cc',
+    cta2Text: 'Blog',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'tennis_data.png',
+    title: 'Tennis Data Aggregation Platform',
+    info:
+      'Founded in 2018, Roo Storage connected people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as the founder and CTO and led the development of our platform.',
+    info2:
+      "After raising a seed round and receving an Arch Grant, Roo was acquired by Handled. Handled is a growth-stage home services concierge that uses Roo's backend technology to manage commercial warehouses across the country.",
+    url: 'https://roo.handled.com/',
+    cta1Text: 'Read more',
+    url2:
+      'https://medium.com/roo-engineering/payment-automation-for-the-sharing-economy-f354487da2cc',
+    cta2Text: 'Blog',
+    caption: 'DI Level High School Tennis Players',
   },
 ];
 

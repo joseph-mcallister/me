@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, img, id, cta1Text, url2, cta2Text, caption } = project;
 
             return (
               <Row key={id}>
@@ -55,17 +55,17 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        {cta1Text || 'See Live'}
                       </a>
 
-                      {repo && (
+                      {url2 && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
+                          href={url2}
                         >
-                          Source Code
+                          {cta2Text || 'Repo'}
                         </a>
                       )}
                     </div>
@@ -101,6 +101,7 @@ const Projects = () => {
                         >
                           <div data-tilt className="thumbnail rounded">
                             <ProjectImg alt={title} filename={img} />
+                            <figcaption id="project_img_caption">{caption || ''} </figcaption>
                           </div>
                         </Tilt>
                       </a>
