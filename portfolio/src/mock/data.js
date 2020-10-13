@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'roo_handled.jpg',
     title: 'Roo Storage',
     info:
-      'Founded in 2018, Roo Storage connected people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as the founder and CTO and led the development of our platform.',
+      'Founded in 2018, Roo Storage connects people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as the founder and CTO and led the development of our platform.',
     info2:
       "After raising a seed round and receving an Arch Grant, Roo was acquired by Handled. Handled is a growth-stage home services concierge that uses Roo's backend technology to manage commercial warehouses across the country.",
     url: 'https://roo.handled.com/',
@@ -45,23 +45,23 @@ export const projectsData = [
     img: 'tennis_data.png',
     title: 'Tennis Data Aggregation Platform',
     info:
-      'Founded in 2018, Roo Storage connected people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as the founder and CTO and led the development of our platform.',
+      'This project agreggates data from the three primary junior tennis data sources: the International Tennis Federation, Universal Tennis Ratings, and Tennis Recruiting through a combination of API calls and screenscraping. ',
     info2:
-      "After raising a seed round and receving an Arch Grant, Roo was acquired by Handled. Handled is a growth-stage home services concierge that uses Roo's backend technology to manage commercial warehouses across the country.",
-    url: 'https://roo.handled.com/',
-    cta1Text: 'Read more',
-    url2:
-      'https://medium.com/roo-engineering/payment-automation-for-the-sharing-economy-f354487da2cc',
-    cta2Text: 'Blog',
+      'By combining analyzing these sources, one can identify under-valued junior tennis players and produce more targetted recruiting efforts',
+    url: 'https://github.com/joseph-mcallister/tennis-data-aggregator',
+    cta1Text: 'Repo',
+    // url2:
+    //   'https://medium.com/roo-engineering/payment-automation-for-the-sharing-economy-f354487da2cc',
+    // cta2Text: 'Blog',
     caption: 'DI Level High School Tennis Players',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "Want to work together? Let's talk.",
+  btn: 'GitHub',
+  link: 'https://github.com/joseph-mcallister',
 };
 
 // FOOTER DATA
@@ -69,23 +69,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/joseph-mcallister/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/joseph-mcallister',
     },
   ],
 };
