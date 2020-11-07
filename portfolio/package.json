@@ -1,7 +1,7 @@
 {
   "name": "joseph-mcallister-portfolio",
   "private": true,
-  "description": "A simple portfolio site deployed at joseph-mcallister.github.io",
+  "description": "A simple portfolio site deployed at joseph-mcallister.github.io and josephmcallister.com",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
