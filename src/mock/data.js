@@ -60,8 +60,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: "Want to work together? Let's talk.",
-  btn: "GitHub",
-  link: "https://github.com/joseph-mcallister",
+  btn: "LinkedIn",
+  link: "https://www.linkedin.com/in/joseph-mcallister/",
 };
 
 // FOOTER DATA
