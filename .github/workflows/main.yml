@@ -3,7 +3,7 @@ name: Build projct and deploy to Azure blob storage
 on: [push]
 
 jobs:
-  build:
+  build-and-deploy:
 
     runs-on: ubuntu-latest
 
@@ -13,15 +13,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: pwd
-    - run: npm install
+=    - run: npm install
     - run: npm run build --if-present
     - run: npm test
       env:
         CI: true
-    - run: pwd
-    - run: ls
-    - run: ls public
     - uses: bacongobbler/azure-blob-storage-upload@v1.1.1
       with:
         source_dir: /home/runner/work/joseph-mcallister.github.io/joseph-mcallister.github.io/public
