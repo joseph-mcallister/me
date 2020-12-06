@@ -19,16 +19,12 @@ jobs:
     - run: npm test
       env:
         CI: true
-
-
-  upload:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: bacongobbler/azure-blob-storage-upload@v1.1.1
-        with:
-          source_dir: /home/runner/work/joseph-mcallister.github.io/joseph-mcallister.github.io/public
-          container_name: $web
-          connection_string: ${{ secrets.ConnectionString }}
-          sync: false
+    - run: pwd
+    - run: ls
+    - run: ls public
+    - uses: bacongobbler/azure-blob-storage-upload@v1.1.1
+      with:
+        source_dir: /home/runner/work/joseph-mcallister.github.io/joseph-mcallister.github.io/public
+        container_name: $web
+        connection_string: ${{ secrets.ConnectionString }}
+        sync: false
