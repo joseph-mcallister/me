@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Build projct and deploy to Azure blob storage
 
 on: [push]
 
@@ -18,3 +18,16 @@ jobs:
     - run: npm test
       env:
         CI: true
+
+
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bacongobbler/azure-blob-storage-upload@v1.1.1
+        with:
+          source_dir: public
+          container_name: web
+          connection_string: ${{ secrets.ConnectionString }}
+          extra_args: '--pattern *.tar.gz'
+          sync: false
