@@ -31,7 +31,7 @@ export const projectsData = [
     img: "roo_handled.jpg",
     title: "Roo Storage",
     info:
-      "Founded in 2017, Roo Storage connects people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as the founder and CTO and led the development of our platform.",
+      "Founded in 2017, Roo Storage connects people in need of storage with hosts seeking to earn passive income--think AirBnB for storage. While at Roo I served as a Cofounder and CTO and led the development of our platform.",
     info2:
       "After raising a seed round and receving an Arch Grant, Roo was acquired by Handled. Handled is a growth-stage home services concierge that uses Roo's backend technology to manage commercial warehouses across the country.",
     url: "https://roo.handled.com/",
