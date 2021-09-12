@@ -1,6 +1,7 @@
 # Custom
 public
 nvm
+.DS_STORE
 
 # Logs
 logs

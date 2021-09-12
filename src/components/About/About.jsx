@@ -50,11 +50,11 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "Since then, I graduated from Cornell University where I co-founded Roo Storage. Roo was acquired by Handled in February 2020 after raising 6 figures in seed capital."}
+                    "Since then, I graduated from Cornell University where I cofounded Roo Storage. Roo was acquired by Handled in February 2020 after raising 6 figures in seed capital."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    "I thrive in passionate, cross-functional teams obsessed with achieving outcomes for both the customer and the business."}
+                    "I thrive in passionate, cross-functional teams obsessed with achieving outcomes for both the customer and the business. I am currently a full-stack software engineer at Microsoft working on Azure Data Factory and Azure Synapse Analytics."}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
