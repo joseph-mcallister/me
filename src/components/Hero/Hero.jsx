@@ -35,7 +35,7 @@ const Header = () => {
             {title || "Hi, my name is"}{" "}
             <span className="text-color-main">{name || "Joe McAllister"}</span>
             <br />
-            {subtitle || "Entrepenuer & Engineer"}
+            {subtitle || "Entrepreneur & Engineer"}
           </h1>
         </Fade>
         <Fade
